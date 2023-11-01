@@ -13,6 +13,8 @@
 	color: grey;
 }
 
+/*------------------- Eigen code -------------------*/
+
 *{
     padding: 0;
     margin: 0;
@@ -22,7 +24,7 @@ a{
     text-decoration: none;
 }
 
-/* Header */
+/* ------------------- Header -------------------*/
 
     header{
         display: flex;

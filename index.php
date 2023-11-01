@@ -4,24 +4,13 @@
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Belastingdienst</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 	<?php require_once("header.php"); ?>
 
 	<!-- START eigen code -->
-
-    <header>
-        <img src="assets/img/logo.png" alt="Belastingdienst" class="logoBelastingdienst">
-        <nav>
-            <a href="#">#</a>
-            <a href="#">#</a>
-            <a href="#">#</a>
-            <a href="#">#</a>
-            <a href="#">#</a>
-        </nav>
-    </header>
 
     <main>
         <h2>belastingen</h2>
