@@ -1,10 +1,10 @@
 <header>
-	<img src="img/logo.png" alt="Belastingdienst" class="logoBelastingdienst">
 	<nav>
-		<a href="#">#</a>
-		<a href="#">#</a>
-		<a href="#">#</a>
-		<a href="#">#</a>
-		<a href="#">#</a>
+		<a href="index.php">Home</a>
+		<a href="nieuws.php">Nieuwsberichten</a>
+		<img src="img/logo.png" alt="Belastingdienst" class="logoBelastingdienst">
+		<a href="q-a.php">Q EN A</a>
+		<a href="meldingen.php">Meldingen</a>
+		<a href="contact.php">Contat</a>
 	</nav>
 </header>

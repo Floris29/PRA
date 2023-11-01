@@ -19,12 +19,6 @@
         </div>
     </main>
 
-
-
-
-
-
-
     <!-- EINDE eigen code -->
 
     <?php require_once("footer.php"); ?>
