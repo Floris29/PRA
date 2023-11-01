@@ -23,16 +23,24 @@
                 <input type="hidden" name="action" value="send">
 
                 <div class="form-group">
+                    <label for="senderOnderwerp">onderwerp</label>
+                    <input type="text" name="ssenderOnderwerp" id="senderOnderwerp">
+                </div>
+                <div class="form-group">
                     <label for="senderName">Naam</label>
                     <input type="text" name="senderName" id="senderName">
+                </div>
+                <div class="form-group">
+                    <label for="senderTelefoonNummmer">telefoonnummer</label>
+                    <input type="text" name="senderTelefoonNummmer" id="senderTelefoonNummmers">
                 </div>
                 <div class="form-group">
                     <label for="senderEmail">E-mailadres</label>
                     <input type="text" name="senderEmail" id="senderEmail">
                 </div>
                 <div class="form-group">
-                    <label for="senderTelefoonNummmer">telefoonnummer</label>
-                    <input type="text" name="senderTelefoonNummmer" id="senderTelefoonNummmers">
+                    <label for="senderBsnNUmmer">Bsn</label>
+                    <input type="text" name="senderBsnNUmmer" id="senderBsnNUmmer">
                 </div>
                 <div class="form-group">
                     <label for="message">Bericht</label>

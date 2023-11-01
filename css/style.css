@@ -39,10 +39,15 @@ a{
 
 
 
+/*---------css meldingen----------*/
+.form-group{
+    display: flex;
+}
 
-
-
-
+.meldingen{
+    display: flex;
+    justify-content: flex-end;
+}
 
 
 
