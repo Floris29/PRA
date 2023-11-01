@@ -17,10 +17,6 @@
 
 	</main>
 
-	<footer>
-		<p>© 2023 Belastingdienst</p>
-	</footer>
-
 
 	<script type="text/javascript">
 		// Schrijf hier Javascript voor de "lees meer"
