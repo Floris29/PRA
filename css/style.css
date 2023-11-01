@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper{
+	width: 968px;
+	margin: 0 auto;
+}
+
+.muted{
+	color: grey;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Header */
+
+    header{
+        display: flex;
+    }
+
+    .logoBelastingdienst{
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    text-align: center;
+    background-color: #90E0EF;
+    padding: 30px;
+    border-bottom:black;
+    border-bottom-style: double;
+    border-width: 10px;
+}
+
+
+
+
+
+
+
+
+/* EINDE eigen code */
+
+.form-group{
+	border: 1px solid lightgrey;
+	padding: 10px;
+}
+
+.form-group label{
+	display: inline-block;
+	width: 150px;
+	cursor: pointer;
+	vertical-align: top;
+}
+
+.form-group input[type=text], .form-group textarea{
+	width: 300px;
+}
+
+.form-group input[type=submit]{
+	padding: 10px;
+	cursor: pointer;
+}
