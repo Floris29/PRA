@@ -49,45 +49,18 @@ nav a {
     background-color: darkblue;
 }
 
-/*---------css meldingen----------*/
+/*---------meldingen----------*/
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
 .form-group{
-    display: flex;
-}
-
-.meldingen{
-    display: flex;
-    justify-content: flex-end;
-}
-
-
-
-
-
-h1 {
-    text-align: center;
-    background-color: #90E0EF;
-    padding: 30px;
-    border-bottom: black;
-    border-bottom-style: double;
-    border-width: 10px;
-}
-
-
-
-
-
-
-
-
-/* EINDE eigen code */
-
-.form-group {
-    border: 1px solid lightgrey;
     padding: 10px;
 }
 
 .form-group label {
-    display: inline-block;
     width: 150px;
     cursor: pointer;
     vertical-align: top;

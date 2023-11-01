@@ -19,9 +19,8 @@
 
             <form action="backend/contactController.php" method="post">
 
-                <!-- Vertel de controller wat we gaan doen -->
                 <input type="hidden" name="action" value="send">
-
+            <div class="form">
                 <div class="form-group">
                     <label for="senderOnderwerp">onderwerp</label>
                     <input type="text" name="ssenderOnderwerp" id="senderOnderwerp">
@@ -43,7 +42,7 @@
                     <input type="text" name="senderBsnNUmmer" id="senderBsnNUmmer">
                 </div>
                 <div class="form-group">
-                    <label for="message">Bericht</label>
+                    <label for="senderMessage">Bericht</label>
                     <textarea name="message" cols="30" rows="10" id="message"></textarea>
                 </div>
                 <div class="form-group">
@@ -52,6 +51,7 @@
 
             </form>
 
+        </div>
         </div>
     </main>
 
