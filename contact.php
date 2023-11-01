@@ -29,6 +29,10 @@
 					<input type="text" name="senderEmail" id="senderEmail">
 				</div>
 				<div class="form-group">
+					<label for="senderTelefoonNummmer">telefoonnummer</label>
+					<input type="text" name="senderTelefoonNummmer" id="senderTelefoonNummmers">
+				</div>
+				<div class="form-group">
 					<label for="message">Bericht</label>
 					<textarea name="message" cols="30" rows="10" id="message"></textarea>
 				</div>
