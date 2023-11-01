@@ -41,7 +41,7 @@ Bericht van: " . $name . " (" . $email . ")
 */
 
 
-	header("Location: ../contact.php?msg=Bericht+verstuurd");
+	header("Location: ../meldingen.php?msg=Bericht+verstuurd");
 }
 
 ?>
