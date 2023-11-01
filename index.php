@@ -15,7 +15,24 @@
 	<!-- START eigen code -->
 	<main>
 <h1>nieuwe dingen</h1>
+<div class=".dingen">
+			<h2>1</h2>
+			<img src="" alt="">
+		</div>
+		<div class="dingen">
+			<h2>2</h2>
+			<img src="" alt="">
+		</div>
+		<div class="dingen">
+			<h2>3</h2>
+			<img src="" alt="">
+		</div>
+		<div class="dingen">
+			<h2>4</h2>
+			<img src="" alt="">
+		</div>
 	</main>
+	
 
 
 	<script type="text/javascript">
