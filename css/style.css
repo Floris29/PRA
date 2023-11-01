@@ -25,6 +25,9 @@ a {
 }
 
 /* ------------------- Header -------------------*/
+.logoBelastingdienst {
+    width: 175px;
+}
 
 header {
     display: flex;
@@ -33,9 +36,7 @@ header {
 
 }
 
-.logoBelastingdienst {
-    width: 175px;
-}
+
 
 nav{
     padding-left: 25px;
