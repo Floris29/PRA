@@ -9,3 +9,33 @@ a{
 
 /* Header */
 
+    header{
+        display: flex;
+    }
+
+    .logoBelastingdienst{
+        width: 250px;
+        margin-left: auto;
+        margin-right: auto;
+        order: ;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    text-align: center;
+    background-color: #90E0EF;
+    padding: 30px;
+    border-bottom:black;
+    border-bottom-style: double;
+    border-width: 10px;
+}
