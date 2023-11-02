@@ -36,8 +36,6 @@ header {
 
 }
 
-
-
 nav{
     padding-left: 25px;
 }
@@ -50,10 +48,35 @@ nav a {
 }
 
 /*---------meldingen----------*/
+input[type=text], input[type=number] {
+    width:  50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
 
-.form{
+.form--title{
+    font-size: large;
+    font-weight: bold;
+}
+
+.flexbox--meldingen{
+    display: flex;
+    justify-content: flex-end;
+}
+
+textarea{
+    align-self: center;
+}
+
+
+/* .form{
     display: flex;
     flex-direction: column;
+}
+
+.form-message{
+    display: flex;
 }
 
 .form-group{
@@ -74,9 +97,14 @@ nav a {
 .form-group input[type=submit] {
     padding: 10px;
     cursor: pointer;
-}
+} */
 /*---------home--------*/
 .dingen{
     display: flex;
     white-space: pre-line;
+}
+
+/*---------footer--------*/
+footer{
+    text-align: center;
 }
