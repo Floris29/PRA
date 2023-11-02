@@ -1,4 +1,35 @@
 ------------------------------
 Bericht van:  ()
 
+------------------------------------------------------------
+Bericht van: 	Floris Melchers 0649963674 (florismelchers@gmail.com)
+Hallo daar, dit is een test.
+------------------------------------------------------------
+Onderwerp: 
+Bericht van:	Tet
+Telefoonnummer: 4
+Email: 4
+BSN: 4
+4
+------------------------------------------------------------
+Onderwerp: 
+Bericht van:	
+Telefoonnummer: 
+Email: 
+BSN: 
+
+------------------------------------------------------------
+Onderwerp: 
+Bericht van:	
+Telefoonnummer: 
+Email: 
+BSN: 
+
+------------------------------------------------------------
+Onderwerp: test
+Bericht van:	test
+Telefoonnummer: 5
+Email: test
+BSN: 4
+Bericht:r
 ------------------------------

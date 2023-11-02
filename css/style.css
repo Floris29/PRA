@@ -36,7 +36,7 @@ header {
 
 }
 
-nav{
+nav {
     padding-left: 25px;
 }
 
@@ -48,79 +48,64 @@ nav a {
 }
 
 /*---------meldingen----------*/
-input[type=text], input[type=number] {
-    width:  50%;
+input[type=text],
+input[type=number] {
+    width: 200%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
 
-.form--title{
+.form--title {
     font-size: large;
     font-weight: bold;
 }
 
-.flexbox--meldingen{
-    display: flex;
-    justify-content: flex-end;
-}
-
-textarea{
-    align-self: center;
-}
-
-
-/* .form{
-    display: flex;
-    flex-direction: column;
-}
-
-.form-message{
+.wrapper--meldingen {
     display: flex;
 }
 
-.form-group{
-    padding: 10px;
+.form {
+    margin-right: 350px;
 }
 
-.form-group label {
-    width: 150px;
-    cursor: pointer;
-    vertical-align: top;
-}
-
-.form-group input[type=text],
-.form-group textarea {
-    width: 300px;
+textarea {
+    height: 50%;
+    width: 305px;
+    resize: none;
 }
 
 .form-group input[type=submit] {
     padding: 10px;
     cursor: pointer;
-} */
+}
+
 /*---------home--------*/
-.dingen{
+.dingen {
     display: flex;
     white-space: pre-line;
     align-items: flex-end;
 
 }
-.padding{
 
-    padding-left:10px;
-    padding-right:10px;
+.padding {
+
+    padding-left: 10px;
+    padding-right: 10px;
     white-space: normal;
     width: 75%;
 }
-p img{
+
+p img {
+    padding: 40px;
     width: 400px;
+    border-style:solid ;
     border: 2px;
     border-color:#48639C;
-    border-style:solid ;
     margin: 30px;
 }
 
 /*---------footer--------*/
-footer{
+footer {
     text-align: center;
 }

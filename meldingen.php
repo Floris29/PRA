@@ -19,41 +19,42 @@
 
             <form action="backend/contactController.php" method="post">
 
-                <input type="hidden" name="action" value="send">
-                <div class="form">
-                    <label for="senderOnderwerp"><span class="form--title">onderwerp</span></label>
-                    </p>
-                    <input type="text" name="ssenderOnderwerp" id="senderOnderwerp" placeholder="Onderwerp">
-                    </p>
-                    <label for="senderName"><span class="form--title">Naam</span></label>
-                    </p>
-                    <input type="text" name="senderName" id="senderName" placeholder="Naam">
-                    </p>
-                    <label for="senderTelefoonNummmer"><span class="form--title">telefoonnummer</span></label>
-                    </p>
-                    <input type="number" name="senderTelefoonNummmer" id="senderTelefoonNummmers" placeholder="Telefoonnummer">
-                    </p>
-                    <label for="senderEmail"><span class="form--title">E-mailadres</span></label>
-                    </p>
-                    <input type="text" name="senderEmail" id="senderEmail" placeholder="E-mailadres">
-                    </p>
-                    <label for="senderBsnNUmmer"><span class="form--title">Bsn</span></label>
-                    </p>
-                    <input type="number" name="senderBsnNUmmer" id="senderBsnNUmmer" placeholder="BSN Nummer">
-                    </p>
+                <div class="wrapper--meldingen">
 
-                    <div class="flexbox--meldingen">
-                        <label for="message">Bericht</label>
+                    <input type="hidden" name="action" value="send">
+
+                    <div class="form">
+                        <label for="senderOnderwerp"><span class="form--title">Onderwerp</span></label>
                         </p>
-                        <textarea name="message" cols="30" rows="10" id="message" placeholder="Melding"></textarea>
+                        <input type="text" name="senderOnderwerp" id="senderOnderwerp" placeholder="Onderwerp" required>
+                        </p>
+                        <label for="senderName"><span class="form--title">Naam</span></label>
+                        </p>
+                        <input type="text" name="senderName" id="senderName" placeholder="Naam" required>
+                        </p>
+                        <label for="senderTelefoonNummmer"><span class="form--title">Telefoonnummer</span></label>
+                        </p>
+                        <input type="number" name="senderTelefoonNummmer" id="senderTelefoonNummmers" placeholder="Telefoonnummer" required maxlength="10">
+                        </p>
+                        <label for="senderEmail"><span class="form--title">E-mailadres</span></label>
+                        </p>
+                        <input type="text" name="senderEmail" id="senderEmail" placeholder="E-mailadres" required>
+                        </p>
+                        <label for="senderBsnNUmmer"><span class="form--title">Bsn</span></label>
+                        </p>
+                        <input type="number" name="senderBsnNUmmer" id="senderBsnNUmmer" placeholder="BSN Nummer" required maxlength="9">
+                        </p>
+
+                        <div class="form-group">
+                            <input type="submit" value="Verzend formulier">
+
+                        </div>
                     </div>
-
-                    <div class="form-group">
-                        <input type="submit" value="Verzend formulier">
-
+                    <div class="flexbox--meldingen">
+                        <label for="message"><span class="form--title">Bericht</span></label>
+                        </p>
+                        <textarea name="message" cols="30" rows="10" id="message" placeholder="Melding" required></textarea>
                     </div>
-
-
                 </div>
             </form>
 

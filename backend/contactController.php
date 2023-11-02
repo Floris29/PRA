@@ -10,26 +10,33 @@
 */
 
 
-if($_POST['action'] == "send")
-{
+if ($_POST['action'] == "send") {
+	$onderwerp = $_POST['senderOnderwerp'];
 	$name = $_POST['senderName'];
+	$telefoonnummer = $_POST['senderTelefoonNummmer'];
 	$email = $_POST['senderEmail'];
+	$bsn = $_POST['senderBsnNUmmer'];
 	$message = $_POST['message'];
-	$to = "jouwemailadres@example.net";
+	$to = "florismelchers@gmail.com";
 
 	var_dump($_POST);
-	file_put_contents("contacts.txt",
+	file_put_contents(
+		"contacts.txt",
 
-"------------------------------
-Bericht van: " . $name . " (" . $email . ")
-" . $message . "
+		"------------------------------
+Onderwerp: " . $onderwerp . "
+Bericht van:	" . $name . "
+Telefoonnummer: " . $telefoonnummer . "
+Email: " . $email . "
+BSN: " . $bsn . "
+Bericht:" . $message . "
 ------------------------------",
 
-	FILE_APPEND
+		FILE_APPEND
 	);
 
 
-/*
+	/*
 	//Onderstaande code mailt het bericht ook - WERKT NIET OP XAMPP
 
 	mail($to, "Contactformulier van website",
@@ -43,5 +50,3 @@ Bericht van: " . $name . " (" . $email . ")
 
 	header("Location: ../meldingen.php?msg=Bericht+verstuurd");
 }
-
-?>
