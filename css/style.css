@@ -113,8 +113,13 @@ textarea{
     width: 75%;
 }
 p img{
-    padding: 40px;
+    width: 400px;
+    border: 2px;
+    border-color:#48639C;
+    border-style:solid ;
+    margin: 30px;
 }
+
 /*---------footer--------*/
 footer{
     text-align: center;

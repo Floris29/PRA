@@ -27,7 +27,8 @@
 
 			</p>
 
-			<p class="padding">Een contactkaartje geeft de Belastingdienst een gezicht
+			<p class="padding">
+				contactkaartje geeft de Belastingdienst een gezicht
 			<img src="img/henri.png " alt="henri">
 23-10-2023 - Henri werkt bij het team Dienstverlening van de Belastingdienst. 
  Hij beantwoordt telefoontjes van mensen die een contactkaartje van ons ontvingen, 
@@ -36,7 +37,8 @@ Categorie : Dienstverlening
 
 			</p>
 
-			<p class="padding">In gesprek gaan staat centraal voor deurwaarders
+			<p class="padding">
+				In gesprek gaan staat centraal voor deurwaarders
 			<img src="img/deurwaarder.png" alt="deurwaarder in gesprek">
 19-10-2023 - Een deurwaarder aan je deur? Daar gaan je auto en andere bezittingen zou je denken. 
  Toch gaan ze niet altijd direct over tot inning. In gesprek gaan en op zoek  naar een gezamenlijke oplossing staat
@@ -44,7 +46,7 @@ Categorieën : Belasting heffen en innenToezicht en handhaving
 
 			</p>
 			<p class="padding">
-				Najaarsmeting vragenlijstonderzoek Fiscale Monitor gestart
+				Najaarsmeting vragenlijstonderzoek Fiscale Monitor
 				<img src="img/foto3.png" alt="vergadering">
 				16-10-2023 - Van het belevingsonderzoek van de Belastingdienst - 
 				 ook wel bekend als de Fiscale Monitor – vindt momenteel een najaarsmeting plaats. 
