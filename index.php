@@ -17,7 +17,7 @@
 <h1>nieuwe dingen</h1>
 <div class="dingen">
 			<h2>
-				<img src="" alt="bjorn meijer">
+				<img src="img/Schermafbeelding 2023-11-02 085338.png" alt="bjorn meijer">
 			</h2>
 			<p>
 26-10-2023 - Inwoners van de regio Drechtsteden kunnen vanaf vandaag met alle vragen over belastingen, <br>
