@@ -102,8 +102,19 @@ textarea{
 .dingen{
     display: flex;
     white-space: pre-line;
-}
+    align-items: flex-end;
 
+}
+.padding{
+
+    padding-left:10px;
+    padding-right:10px;
+    white-space: normal;
+    width: 75%;
+}
+p img{
+    padding: 40px;
+}
 /*---------footer--------*/
 footer{
     text-align: center;
