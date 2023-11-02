@@ -75,3 +75,8 @@ nav a {
     padding: 10px;
     cursor: pointer;
 }
+/*---------home--------*/
+.dingen{
+    display: flex;
+    white-space: pre-line;
+}

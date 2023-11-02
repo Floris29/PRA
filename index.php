@@ -15,22 +15,44 @@
 	<!-- START eigen code -->
 	<main>
 <h1>nieuwe dingen</h1>
-<div class=".dingen">
-			<h2>1</h2>
-			<img src="" alt="">
-		</div>
-		<div class="dingen">
-			<h2>2</h2>
-			<img src="" alt="">
-		</div>
-		<div class="dingen">
-			<h2>3</h2>
-			<img src="" alt="">
-		</div>
-		<div class="dingen">
-			<h2>4</h2>
-			<img src="" alt="">
-		</div>
+<div class="dingen">
+			<h2>
+				<img src="" alt="bjorn meijer">
+			</h2>
+			<p>
+26-10-2023 - Inwoners van de regio Drechtsteden kunnen vanaf vandaag met alle vragen over belastingen, <br>
+toeslagen en invorderingen terecht bij het nieuwe steunpunt van <br>de Belastingdienst. Dit is te vinden op het
+Categorie : Dienstverlening
+
+			</p>
+
+			<h2>
+				<img src="" alt="">
+			</h2>
+			<p>
+
+			</p>
+
+			<h2>
+				<img src="" alt="">
+			</h2>
+			<p>
+
+			</p>
+
+			<h2>
+				<img src="" alt="">
+			</h2>
+			<p>
+
+			</p>
+
+			<h2>
+				<img src="" alt="">
+			</h2>
+			<p>
+
+			</p>
 	</main>
 	
 
