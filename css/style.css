@@ -13,13 +13,6 @@
     color: grey;
 }
 
-/*------------------- Eigen code -------------------*/
-
-* {
-    padding: 0;
-    margin: 0;
-}
-
 a {
     text-decoration: none;
 }
@@ -27,24 +20,22 @@ a {
 /* ------------------- Header -------------------*/
 .logoBelastingdienst {
     width: 175px;
-}
-
-header {
-    display: flex;
-    align-items: center;
-    gap: 361px;
-
+    display: block;
+    margin: 0 auto;
 }
 
 nav {
-    padding-left: 25px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
 }
 
 nav a {
     padding: 20px;
+    margin: 20px;
     border: 1px solid black;
     color: white;
-    background-color: darkblue;
+    background-color: #00588E;
 }
 
 /*---------meldingen----------*/
@@ -81,31 +72,122 @@ textarea {
 }
 
 /*---------home--------*/
-.dingen {
+
+.titel-nieuws {
+    text-align: center;
+}
+
+.nieuws-rij1,
+.nieuws-rij2 {
     display: flex;
-    white-space: pre-line;
-    align-items: flex-end;
-
+    justify-content: space-around;
+    margin-bottom: 100px;
 }
 
-.padding {
-
-    padding-left: 10px;
-    padding-right: 10px;
-    white-space: normal;
-    width: 75%;
+.nieuws-home {
+    border: 2px solid black;
+    text-align: center;
+    max-width: 500px;
 }
 
-p img {
-    padding: 40px;
-    width: 400px;
-    border-style:solid ;
-    border: 2px;
-    border-color:#48639C;
-    margin: 30px;
+.nieuws-img {
+    width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.datum--nieuws,
+.titel--nieuws {
+    font-size: large;
+    font-weight: bold;
 }
 
 /*---------footer--------*/
 footer {
     text-align: center;
+    font-weight: bolder;
+}
+
+/*----------------Meldingen----------*/
+
+.dabi {
+    display: none;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.kanaalregie{
+    display: none;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.klantsignaal {
+    display: none;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.ketenregie {
+    display: none;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.titel-dabi {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 515px;
+}
+
+.dabi-tekst {
+    border: 1px solid black;
+    white-space: pre-line;
+    margin-right: 250px;
+}
+
+
+/*-----------------dropdown-----------------*/
+.dropbtn {
+    background-color: #00588E;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropbtn:hover {
+    background-color: white;
+    color: #00588E;
+    font-weight: bolder;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 500px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
 }

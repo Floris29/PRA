@@ -12,14 +12,11 @@
 
     <?php require_once("header.php"); ?>
 
-    <!-- START eigen code -->
     <main>
         <div class="wrapper">
-
+        <h1>Meest gestelde vragen belastingdienst algemeen</h1>
         </div>
     </main>
-
-    <!-- EINDE eigen code -->
 
     <?php require_once("footer.php"); ?>
 
