@@ -18,7 +18,7 @@ a {
 }
 
 /* ------------------- Header -------------------*/
-.logoBelastingdienst {
+img{
     width: 175px;
     display: block;
     margin: 0 auto;
@@ -39,43 +39,62 @@ nav a {
 }
 
 /*---------meldingen----------*/
-input[type=text],
-input[type=number] {
-    width: 200%;
+input[type=text], input[type=number] {
+    width:  50%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
 
-.form--title {
+.form--title{
     font-size: large;
     font-weight: bold;
 }
 
-.wrapper--meldingen {
+.flexbox--meldingen{
+    display: flex;
+    justify-content: flex-end;
+}
+
+textarea{
+    align-self: center;
+}
+
+
+/* .form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-message{
     display: flex;
 }
 
-.form {
-    margin-right: 350px;
+.form-group{
+    padding: 10px;
 }
 
-textarea {
-    height: 50%;
-    width: 305px;
-    resize: none;
+.form-group label {
+    width: 150px;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.form-group input[type=text],
+.form-group textarea {
+    width: 300px;
 }
 
 .form-group input[type=submit] {
     padding: 10px;
     cursor: pointer;
-}
-
+} */
 /*---------home--------*/
 
 .titel-nieuws {
     text-align: center;
 }
+.padding{
 
 .nieuws-rij1,
 .nieuws-rij2 {
@@ -92,8 +111,8 @@ textarea {
 
 .nieuws-img {
     width: 350px;
-    display: block;
     margin-left: auto;
+    display: block;
     margin-right: auto;
 }
 
@@ -104,7 +123,7 @@ textarea {
 }
 
 /*---------footer--------*/
-footer {
+footer{
     text-align: center;
     font-weight: bolder;
 }
