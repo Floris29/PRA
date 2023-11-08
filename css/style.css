@@ -136,7 +136,7 @@ footer{
     flex-direction: column;
 }
 
-.kanaalregie{
+.kanaalregie {
     display: none;
     align-items: flex-end;
     flex-direction: column;
@@ -147,6 +147,7 @@ footer{
     align-items: flex-end;
     flex-direction: column;
 }
+
 .ketenregie {
     display: none;
     align-items: flex-end;
@@ -210,3 +211,6 @@ footer{
 .show {
     display: block;
 }
+
+
+verandering voor stijn
