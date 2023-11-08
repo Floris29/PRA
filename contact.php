@@ -12,27 +12,15 @@
 
 	<?php require_once("header.php"); ?>
 
-	<!-- START eigen code -->
 	<main>
 		<div class="wrapper">
-			<h1>Neem contact op</h1>
-
-
+			<h1>Neem contact op met de teams</h1>
+			
 		</div>
 	</main>
-
-
-
-
-
-
-
-	<!-- EINDE eigen code -->
 
 	<?php require_once("footer.php"); ?>
 
 </body>
 
 </html>
-
-verandering voor stijn
