@@ -12,27 +12,23 @@
 
 	<?php require_once("header.php"); ?>
 
-	<!-- START eigen code -->
 	<main>
 		<div class="wrapper">
-			<h1>Neem contact op</h1>
+			<h1>Neem contact op met de teams van Kanaal- en Ketenregie</h1>
+
+			<div class="contact-dabi">
+				Contacteer TEAM DABI van de belastingdienst:
+				<span class="contact-naam">Alexander Diaz</span>
+				Alexander Diaz is het afdelingshoofd van Kanaal- en Ketenregie.
+				Contacteer hem: <a href="https://www.linkedin.com/in/alexander-d-01180040/?locale=nl_NL">Alexander Diaz</a>
+			</div>
 
 
 		</div>
 	</main>
-
-
-
-
-
-
-
-	<!-- EINDE eigen code -->
 
 	<?php require_once("footer.php"); ?>
 
 </body>
 
 </html>
-
-verandering voor stijn
