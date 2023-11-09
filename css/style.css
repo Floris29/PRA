@@ -228,3 +228,17 @@ h3{
 .titel-teams{
     text-align: center;
 }
+.vraag1, .vraag2, .vraag3, .vraag4, .vraag5{
+    display:block;
+}
+
+.text-hidden1, .text-hidden2, .text-hidden3, .text-hidden4, .text-hidden5{
+    display: none;
+}
+button{
+    font-size:30px;
+    background-color: #00588E;
+    color: white;
+    padding: 1px;
+    cursor: pointer;
+}
