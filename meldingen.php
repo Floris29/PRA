@@ -45,16 +45,15 @@
                         <input type="number" name="senderBsnNUmmer" id="senderBsnNUmmer" placeholder="BSN Nummer" required maxlength="9">
                         </p>
 
-                        <div class="form-group">
-                            <input type="submit" value="Verzend formulier">
-
-                        </div>
                     </div>
                     <div class="flexbox--meldingen">
                         <label for="message"><span class="form--title">Bericht</span></label>
                         </p>
                         <textarea name="message" cols="30" rows="10" id="message" placeholder="Melding" required></textarea>
                     </div>
+                </div>
+                <div class="form-group">
+                    <input class="form-group--button" type="submit" value="Verzend formulier">
                 </div>
             </form>
 
@@ -68,9 +67,6 @@
 
 </body>
 
-<<<<<<< Updated upstream
-</html>
-=======
 </html>
 
->>>>>>> Stashed changes
+</html>

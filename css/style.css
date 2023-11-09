@@ -46,14 +46,36 @@ input[type=text], input[type=number] {
     box-sizing: border-box;
 }
 
+.wrapper--meldingen{
+    display: flex;
+    margin: 0 auto;
+}
+
+.form  input{
+    width: 600px;
+}
+
+.form-group{
+    padding: 20px;
+    background-color: #00588E;
+    text-align: center;
+}
+
+.form-group--button{
+    background-color: white;
+    color: #00588E;
+    padding: 20px;
+    font-weight: bolder;
+}
+
 .form--title{
     font-size: large;
     font-weight: bold;
 }
 
 .flexbox--meldingen{
-    display: flex;
-    justify-content: flex-end;
+    padding-top: 125px;
+    padding-left: 100px;
 }
 
 textarea{
@@ -152,6 +174,11 @@ footer{
     padding: 20px;
     font-size: 16px;
     cursor: pointer;
+    margin-left: 200px;
+}
+
+.titel--teamss{
+    margin-left: 90px;
 }
 
 .dropbtn:hover {

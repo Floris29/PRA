@@ -19,7 +19,7 @@
     </main>
 
 
-    <h2>Teams van Kanaal- en Ketenregie:</h2>
+    <h2 class="titel--teamss">Teams van Kanaal- en Ketenregie:</h2>
 
     <div class="dropdown">
         <button onclick="programmingList()" class="dropbtn">Teams</button>
