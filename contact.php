@@ -14,15 +14,28 @@
 
 	<main>
 		<div class="wrapper">
-			<h1>Neem contact op met de teams van Kanaal- en Ketenregie</h1>
+			<h1 class="titel-teams">Neem contact op met de teams van Kanaal- en Ketenregie</h1>
 
-			<div class="contact-dabi">
-				<span class="team-dikgedrukt">Contacteer TEAM DABI van de belastingdienst:
+			<div class="contact-teams">
+				<span class="team-dikgedrukt">Contacteer team DABI van 6de belastingdienst:
 				Alexander Diaz</span>
-				Alexander Diaz is het afdelingshoofd van Kanaal- en Ketenregie.
+				Alexander Diaz is een afdelingshoofd van Kanaal- en Ketenregie.
 				Contacteer hem: <a href="https://www.linkedin.com/in/alexander-d-01180040/?locale=nl_NL">Alexander Diaz</a>
 			</div>
 
+			<div class="contact-teams">
+				<span class="team-dikgedrukt">Contacteer team Kanaalregie van de belastingdienst:
+				Lara Gonzalez</span>
+				Lara Gonzalez is een afdelingshoofd van kanaalregie.
+				Contacteer haar: <a href="https://www.linkedin.com/in/gonzalezlara/?originalSubdomain=nl">Lara Gonzalez</a>
+			</div>
+
+			<div class="contact-teams">
+				<span class="team-dikgedrukt">Contacteer team Klantsignaalmanegment van de belastingdienst:
+				Yfke van der Sloot</span>
+				Yfke van der Sloot is het afdelingshoofd van Klantsignaalmanegment.
+				Contacteer haar: <a href="https://www.linkedin.com/in/alexander-d-01180040/?locale=nl_NL">Yfke van der Sloot</a>
+			</div>
 
 		</div>
 	</main>

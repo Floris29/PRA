@@ -71,6 +71,7 @@ textarea{
     display: flex;
     justify-content: space-around;
     margin-bottom: 100px;
+    white-space: pre-line;
 }
 
 .nieuws-home {
@@ -90,6 +91,12 @@ textarea{
 .titel--nieuws {
     font-size: large;
     font-weight: bold;
+}
+
+.lees-meer {
+    font-size: large;
+    font-weight: bold;
+    color: #00588E;
 }
 
 /*---------footer--------*/
@@ -207,11 +214,17 @@ h3{
 }
 
 
-.contact-dabi{
+.contact-teams{
     white-space: pre-line;
     font-size: large;
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 .team-dikgedrukt{
     font-weight: bold;
+}
+
+.titel-teams{
+    text-align: center;
 }
